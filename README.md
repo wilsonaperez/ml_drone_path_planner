@@ -17,8 +17,6 @@ This project demonstrates an **end-to-end pipeline** combining:
 
 ## Getting Started
 ```bash
-git clone https://github.com/yourusername/ml_drone_path_planner.git
-cd ml_drone_path_planner
 pip install -r requirements.txt
 python -m planner.simulation  # to generate data
 python -m planner.ml_predictor  # to train ML model
